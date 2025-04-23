@@ -58,4 +58,8 @@ Truy cập trực tiếp vào:
 ```
 http://127.0.0.1:1001/account.php?account_number=8073
 ```
+<<<<<<< HEAD
 ![BAC](images/Picture8.png)
+=======
+![BAC](images/Picture8.png)
+>>>>>>> 43ea050 (Thêm hình ảnh minh họa)
