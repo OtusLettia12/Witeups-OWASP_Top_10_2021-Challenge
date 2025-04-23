@@ -22,8 +22,14 @@ http://127.0.0.1:2002/
 
 ## Phân tích code
 
+![CF](images/Picture9.png)
+
 - `index.php`: mật khẩu được mã hóa bằng **MD5**
+
+![CF](images/Picture10.png)
 - `account.html`: nếu đăng nhập bằng ID `8073` thì có FLAG, nếu không sẽ trả về `"Is that all you can do? Try something better!"`
+
+![CF](images/Picture11.png)
 - `database.sql`: xác nhận tất cả mật khẩu được mã hóa bằng MD5
 
 ---
@@ -31,9 +37,13 @@ http://127.0.0.1:2002/
 ## Giải pháp
 
 - Dùng tool online để giải mã MD5: https://10015.io/tools/md5-encrypt-decrypt
+
+![CF](images/Picture12.png)
 - Đăng nhập với:
 
 ```
 Username: bountyboys
 Password: power
 ```
+![CF](images/Picture13.png)
+---
