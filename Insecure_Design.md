@@ -22,6 +22,7 @@ http://127.0.0.1:4004/
 
 ![ISD](images/Picture15.png)
 - Tiếp theo, ta sẽ nghiên cứu resource của bài này. Bài này sẽ gồm có các file chính sau: `index.php`, `generator.php`, `0f1dc3a4a495befc4fd568aa151b6c8b.db`
+
 ![ISD](images/Picture16.png)
 
 - Sau khi nghiên cứu luồng hoạt động. Đại khái sẽ là: index sẽ kết nối với Redis server, dữ liệu đăng nhập sẽ được truy suất trong cái file .db dài dài trên kia và điều kiện để có được flag là ta sẽ phải đăng nhập bằng ID: CVE-170144 và mã OTP của nó
